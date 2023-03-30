@@ -6,13 +6,13 @@
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
-name: OpenWrt-CI
+name: 好用的-知行合一
 on:
   push:
     branches: 
       - master
-  # schedule:
-  #   - cron: 0 20 * * *
+  schedule:
+  - cron: 0 20 * * *
   release:
     types: [published]
 jobs:
